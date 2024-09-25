@@ -5,7 +5,7 @@ from PIL import Image
 import cv2
 
 # Load the trained model
-model = tf.keras.models.load_model(r'D:\rohith\Duk\programs\dl\deep-learning\CNN\tumor_detection\results\model.h5')
+model = tf.keras.models.load_model(r'D:\rohith\Duk\programs\dl\mywork\model.h5')
 
 # Set the title of the app
 st.title("Brain Tumor Detection")
